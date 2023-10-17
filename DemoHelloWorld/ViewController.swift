@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     func newFun(){
         print("Hi")
         print("Hello")
+        print("third")
     }
     
 }
