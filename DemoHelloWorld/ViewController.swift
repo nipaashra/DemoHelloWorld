@@ -14,20 +14,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         print("Hello world test")
-        print("Hello world test2")
-        print("Hello world test3")
-        print("Hello world test4")
-        print("Hello world test5")
-        print("Hello world test6")
-        print("hello world test7")
-        print("hello world test8")
-        print("hello world test9")
-        print("hello world test10")
-        print("hello world test11")
-        print("hello world test12")
-
+        newFun()
     }
-
-
+    func newFun(){
+        print("Hi")
+    }
+    
 }
 

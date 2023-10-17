@@ -13,6 +13,7 @@
 		189E15FF26F83D310078C241 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189E15FD26F83D310078C241 /* Main.storyboard */; };
 		189E160126F83D330078C241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189E160026F83D330078C241 /* Assets.xcassets */; };
 		189E160426F83D330078C241 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189E160226F83D330078C241 /* LaunchScreen.storyboard */; };
+		30E12E822ADEAD9800223D45 /* exportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30E12E812ADEAD9800223D45 /* exportOptions.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		189E160026F83D330078C241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		189E160326F83D330078C241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		189E160526F83D330078C241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30E12E812ADEAD9800223D45 /* exportOptions.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = exportOptions.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				189E15F726F83D310078C241 /* AppDelegate.swift */,
 				189E15F926F83D310078C241 /* SceneDelegate.swift */,
 				189E15FB26F83D310078C241 /* ViewController.swift */,
+				30E12E812ADEAD9800223D45 /* exportOptions.plist */,
 				189E15FD26F83D310078C241 /* Main.storyboard */,
 				189E160026F83D330078C241 /* Assets.xcassets */,
 				189E160226F83D330078C241 /* LaunchScreen.storyboard */,
@@ -128,6 +131,7 @@
 				189E160426F83D330078C241 /* LaunchScreen.storyboard in Resources */,
 				189E160126F83D330078C241 /* Assets.xcassets in Resources */,
 				189E15FF26F83D310078C241 /* Main.storyboard in Resources */,
+				30E12E822ADEAD9800223D45 /* exportOptions.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
