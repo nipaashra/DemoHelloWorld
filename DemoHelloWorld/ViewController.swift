@@ -23,6 +23,7 @@ class ViewController: UIViewController {
         print("fourth")
         print("fifth")
         print("Sixth")
+        print("seventh")
     }
     
 }
