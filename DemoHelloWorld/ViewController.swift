@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         print("Hello world test")
         newFun()
+        secondFun()
     }
     func newFun(){
         print("Hi")
@@ -32,6 +33,9 @@ class ViewController: UIViewController {
         print("13")
         print("14")
     }
-    
+    func secondFun()
+    {
+        print("second")
+    }
 }
 
