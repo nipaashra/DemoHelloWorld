@@ -36,6 +36,7 @@ class ViewController: UIViewController {
     func secondFun()
     {
         print("second")
+        print("third")
     }
 }
 
