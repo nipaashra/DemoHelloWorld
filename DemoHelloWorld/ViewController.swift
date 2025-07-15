@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         print("Hello world test")
         newFun()
         secondFun()
+        thirdFun()
     }
     func newFun(){
         print("Hi")
@@ -39,6 +40,11 @@ class ViewController: UIViewController {
         print("third")
         print("Forth")
         print("Fifth")
+    }
+    func thirdFun()
+    {
+        print("thirdone")
+        print("forth")
     }
 }
 
