@@ -43,6 +43,7 @@ class ViewController: UIViewController {
     func thirdFun()
     {
         print("thirdone")
+        print("forth")
     }
 }
 
