@@ -2,23 +2,32 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
+        stage('Checkout') {
             steps {
-                echo 'Running build...'
+                checkout scm
             }
         }
+
+        stage('Build') {
+            steps {
+                echo 'Running build step...'
+            }
+        }
+
         stage('Test') {
             steps {
-                echo 'Running tests...'
+                echo 'Running test step...'
             }
         }
     }
 
     post {
         success {
+            echo 'Sending build info to Jira'
             jiraSendBuildInfo site: 'nipaashra.atlassian.net'
         }
         failure {
+            echo 'Build failed, still sending info to Jira'
             jiraSendBuildInfo site: 'nipaashra.atlassian.net'
         }
     }
