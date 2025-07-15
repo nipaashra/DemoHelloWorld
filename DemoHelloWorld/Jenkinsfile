@@ -1,0 +1,25 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Running build...'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Running tests...'
+            }
+        }
+    }
+
+    post {
+        success {
+            jiraSendBuildInfo site: 'nipaashra.atlassian.net'
+        }
+        failure {
+            jiraSendBuildInfo site: 'nipaashra.atlassian.net'
+        }
+    }
+}
