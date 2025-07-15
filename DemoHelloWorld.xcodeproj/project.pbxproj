@@ -13,7 +13,7 @@
 		189E15FF26F83D310078C241 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189E15FD26F83D310078C241 /* Main.storyboard */; };
 		189E160126F83D330078C241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189E160026F83D330078C241 /* Assets.xcassets */; };
 		189E160426F83D330078C241 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189E160226F83D330078C241 /* LaunchScreen.storyboard */; };
-		308271CE2E269AAC0003B93F /* Jenkinsfile in Resources */ = {isa = PBXBuildFile; fileRef = 308271CD2E269AA70003B93F /* Jenkinsfile */; };
+		308271D02E269D100003B93F /* Jenkinsfile in Resources */ = {isa = PBXBuildFile; fileRef = 308271CF2E269D100003B93F /* Jenkinsfile */; };
 		30E12E822ADEAD9800223D45 /* exportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30E12E812ADEAD9800223D45 /* exportOptions.plist */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +26,7 @@
 		189E160026F83D330078C241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		189E160326F83D330078C241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		189E160526F83D330078C241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		308271CD2E269AA70003B93F /* Jenkinsfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Jenkinsfile; sourceTree = "<group>"; };
+		308271CF2E269D100003B93F /* Jenkinsfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Jenkinsfile; sourceTree = "<group>"; };
 		30E12E812ADEAD9800223D45 /* exportOptions.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = exportOptions.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,6 +44,7 @@
 		189E15EB26F83D310078C241 = {
 			isa = PBXGroup;
 			children = (
+				308271CF2E269D100003B93F /* Jenkinsfile */,
 				189E15F626F83D310078C241 /* DemoHelloWorld */,
 				189E15F526F83D310078C241 /* Products */,
 			);
@@ -60,7 +61,6 @@
 		189E15F626F83D310078C241 /* DemoHelloWorld */ = {
 			isa = PBXGroup;
 			children = (
-				308271CD2E269AA70003B93F /* Jenkinsfile */,
 				189E15F726F83D310078C241 /* AppDelegate.swift */,
 				189E15F926F83D310078C241 /* SceneDelegate.swift */,
 				189E15FB26F83D310078C241 /* ViewController.swift */,
@@ -131,9 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				308271CE2E269AAC0003B93F /* Jenkinsfile in Resources */,
 				189E160426F83D330078C241 /* LaunchScreen.storyboard in Resources */,
 				189E160126F83D330078C241 /* Assets.xcassets in Resources */,
+				308271D02E269D100003B93F /* Jenkinsfile in Resources */,
 				189E15FF26F83D310078C241 /* Main.storyboard in Resources */,
 				30E12E822ADEAD9800223D45 /* exportOptions.plist in Resources */,
 			);
