@@ -46,6 +46,7 @@ class ViewController: UIViewController {
         print("thirdone")
         print("forth")
         print("Fifth")
+        print("six")
     }
 }
 
